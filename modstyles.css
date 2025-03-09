@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Belbo";
+    src:
+        url("https://raw.githack.com/institutesynth/fontbook/main/Belbo-Regular.woff") format("woff"),
+        url("https://raw.githack.com/institutesynth/fontbook/main/Belbo-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Neutronic";
+    src:
+        url("https://raw.githack.com/institutesynth/fontbook/main/Neutronic-Medium.woff") format("woff"),
+        url("https://raw.githack.com/institutesynth/fontbook/main/Neutronic-Medium.woff") format("woff2");
+}
+
+.comment-head {
+    font-family: "Neutronic", Menlo, Consolas, monospace;
+    margin-top: 12vh;
+    margin-bottom: 3vh;
+}
+
+.p-body {
+    font-family: "Belbo", sans;
+    font-size: large;
+}
+
+.ss-container {
+    padding-top: 4em;
+    padding-bottom: 8em;
+}
+
+#mod1 {
+    background-color: #E6E6E6;
+}
+
+#mod2 {
+    background-color: #050A0E;
+    color: #43bcff;
+}
+
+#mod3 {
+    background-color: #E6E6E6;
+}
