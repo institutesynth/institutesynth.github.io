@@ -114,12 +114,10 @@ ul.timeline-list::before {
     transform: translateX(-50%);
 }
 
-/* Ensure list items take full width */
 ul.timeline-list li {
     position: relative;
     clear: both;
     width: 100%;
-    /* Remove display: table if it causes shrink-wrapping issues */
     /* display: table; */
 }
 
